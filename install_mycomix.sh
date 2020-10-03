@@ -1,6 +1,4 @@
 #!/bin/bash
-apk update
-apk upgrade
 curl --get https://codeload.github.com/imueRoid/myComix/zip/master --output myComix.zip
 unzip myComix.zip
 echo N|cp -i ./myComix-master/* /app
