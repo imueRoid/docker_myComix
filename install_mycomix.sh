@@ -1,5 +1,5 @@
 #!/bin/bash
-curl --get https://codeload.github.com/imueRoid/myComix/zip/master --output myComix.zip
+wget https://codeload.github.com/imueRoid/myComix/zip/master -O myComix.zip
 unzip myComix.zip
 echo N|cp -i ./myComix-master/* /app
 rm -rf ./myComix-master
